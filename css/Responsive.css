@@ -1,0 +1,408 @@
+@media  screen and (max-width: 1200px){
+    .first_menu{
+        width: 100%;
+        margin: 0;
+    }
+    .second_menu{
+        width: 100%;
+    }
+    .navigation_menu{
+        position: sticky;
+    }
+}
+@media screen and (max-width: 1024px) {
+
+    .navigation_menu{
+        position: sticky;
+    }
+    .first_menu{
+        display: none;
+    }
+    .list{
+        display: none;
+    }
+    .openbtn{
+        display: block;
+    }
+    .first_btn , .second_btn , .btn-main_section {
+        padding: 10px;
+    }
+    .card_section{
+        margin: 0;
+        margin-top: 20px;
+    }
+    .first, .second, .third, .fourth, .fifth, .sixth, .seven, .eight, .nine{
+        width: 50%;
+    }
+    .details_section {
+        margin-bottom: 5%;
+    }
+
+    /* Footer section */
+    .footer_a{
+        font-size: smaller;
+    }
+    .tweet_p{
+        font-size: 12px;
+    }
+    .tags{
+        height: 30px;
+        line-height: 30px;
+        font-size: 14px;
+    }
+    .last_p{
+        font-size: 14px;
+    }
+    .last_ul{
+        font-size: 14px;
+    }
+    .part-1 , .part-2 , .part-3, .part-4{
+        width: 50%;
+    }
+    .common-header{
+        font-size: large;
+    }
+    .card_img{
+        transform: translateY(30%);
+    }
+    .call-back-container{
+        flex-wrap: wrap;
+    }
+     .call-back-img{
+       width: 100%;
+       height: auto;
+    }
+    .call-back-form{
+        width: 100%;
+    }
+    .photostream{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+@media  screen and (max-width: 900px) {
+    .first_btn , .second_btn , .btn-main_section {
+        padding: 8px;
+        font-size: 13px;
+    }
+    .p-second_section{
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+    .section-4_details{
+        max-width: 100%;
+    font-size: 14px;
+    }
+    .details_of_seven_section{
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .part-1{
+        width: 100%;
+    }
+    .part-2 , .part-3 , .part-4{
+        width: 33.33%;
+    }
+    .desc_p{
+        max-width: 100%;
+    }
+    .photostream{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    
+}
+@media screen and (max-width: 850px) {
+    .details_of_seven_section{
+        font-size: 14px;
+    }
+    .footer_p{
+        font-size: 14px;
+    }
+    .footer_a{
+        font-size: small;
+    }
+    .tags_part{
+        column-gap: 6px;
+    }
+    .last_p{
+        font-size: 12px;
+    }
+    .last_ul{
+        font-size: 12px;
+    }
+    .btn-main_section{
+        font-size: 10px;
+    }
+    .first_btn img{
+        height: 20px;
+        width: auto;
+    }
+    .second_btn img{
+        height: 20px;
+        width: auto;
+    }
+    .h1-head{
+        font-size: 36px;
+    }
+    .p-head{
+        font-size: 16px;
+    }
+    .cb-form form input[type="submit"]{
+        padding: 15px 20px;
+    }
+   
+    
+}
+@media screen and (max-width:800px) {
+    .h2-head{
+        font-size: 22px;
+    }
+    .card_header{
+        font-size: 18px;
+    }
+    .p-third_section{
+        max-width: 250px;
+        font-size: 14px;
+    }
+    .second_part p {
+        font-size: 12px;
+    }
+    .second_part h3{
+        margin-top: 0;
+        
+    }
+    .third_part p {
+        font-size: 12px;
+    }
+    .third_part h3{
+        margin-top: 0;
+    }
+    .forth_part p{
+        font-size: 12px;
+    }
+    .forth_part h3{
+        margin-top: 0;
+    }
+    .details_part h3{
+        font-size:17px;
+    }
+    .details_part_p{
+        font-size: 14px;
+    }
+    .card_details_head{
+        font-size: 16px;
+    }
+    .card_p{
+        font-size: 15px;
+    }
+    
+}
+@media screen and (max-width: 750px) {
+    .card_section{
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .details_of_seven_section{
+        font-size: 13px;
+    }
+    .part-2 , .part-3{
+        width: 50%;
+    }
+    .part-4{
+        width: 100%;
+    }
+    .photostream{
+        grid-template-columns:repeat(6, minmax(10px, 1fr));
+    }
+    .cb-form form input[type="submit"]{
+        padding: 15px 10px;
+    }
+}
+@media screen and (max-width: 700px) {
+    .h1-head{
+        font-size: 32px;
+    }
+    .p-head{
+        font-size: 12px;
+    }
+    .details_fifth_head_section_1 , .details_fifth_head_section{
+        font-size: 15px;    
+    }
+    .first, .second, .third, .fourth, .fifth, .sixth, .seven, .eight, .nine{
+        width: 50%;
+    }
+    .last_ul{
+        column-gap: 7px;
+    }
+    .call-back-img , .call-back-form{
+        width: 100%;
+    }
+    .call-back-container{
+        flex-wrap: wrap;
+    }
+    .details_of_seven_section{
+        font-size: 12px;
+    }
+    .fourth_section_details{
+        flex-wrap: wrap;
+        row-gap: 20px;
+    }
+    .details , .img_section{
+        width: 100%;
+    }
+    .third_section_details{
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .first_part , .second_part , .third_part , .forth_part {
+        width: 50%;
+    }
+    .last_line{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+}
+@media screen and (max-width:650px) {
+    .photostream{
+        grid-template-columns: repeat(5 , minmax(10px, 1fr));
+    }
+    .tags_a{
+        border-right: none;
+        padding-right: 0;
+    }
+    
+    .details_of_seven_section{
+        font-size: 11px;
+    }
+    .details_fifth_head_section_1, .details_fifth_head_section{
+        font-size: 13px;
+    }
+    .footer_p{
+        font-size: 12px;
+    }
+    .last_line{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media screen and (max-width:600px) {
+    .first_card, .second_card, .third_card{
+        width: 100%;
+        text-align: center;
+    }
+    .part-2 , .part-3 {
+        width: 100%;
+    }
+    .cb-form form input[type="submit"]{
+        padding: 10px 5px;
+    }
+    
+}
+@media screen and (max-width:550px) {
+    .h1-head{
+        font-size: 28px;
+    }
+    .photostream{
+        grid-template-columns: repeat(4 , minmax(10px, 1fr));
+    }
+    .footer_p{
+        font-size: 10px;
+    }
+    .btn-main_section{
+        padding: 5px;
+    }
+    .first, .second, .third, .fourth, .fifth, .sixth, .seven, .eight, .nine{
+        width: 100%;
+    }
+}
+@media screen and (max-width:500px) {
+    .h1-head{
+        font-size: 24px; 
+    }
+    
+    .btn_section{
+        margin-top: 0;
+    }
+    .first_btn, .second_btn, .btn-main_section{
+        padding: 5px;
+        
+    }
+    .btn-main_section{
+        margin-top: 0;
+    }
+    .photostream{
+        grid-template-columns: repeat(4 , minmax(10px, 1fr));
+    }
+    .first_btn img{
+        display: none;
+    }
+    .second_btn img{
+        display: none;
+    }
+}
+@media screen and (max-width:450px) {
+    .h1-head{
+        font-size: 22px;
+        margin-bottom: 0;
+    }
+    .first_btn, .second_btn, .btn-main_section{
+       padding: 2px;
+
+    }
+    .h2-head{
+        font-size: 20px;
+    }
+    .first_part, .second_part, .third_part, .forth_part{
+        width: 100%;
+        row-gap: 10px;
+    }
+    .card_section p {
+        font-size: 14px;
+    }
+    .section-4_details{
+        font-size: 14px;
+    }
+    .details_part h3{
+        font-size: 15px;    
+    }
+    .details_part_p{
+        font-size: 12px;
+    }
+    .cb-form form input[type="submit"]{
+        font-size: 12px;
+    }
+    .second_part h3 , .third_part h3 , .forth_part h3{
+        text-align: center;
+    }
+    .second_part p , .third_part p , .forth_part p{
+        text-align: center;
+    }
+    .fourth_section{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .fifth_section{
+        margin-bottom: 10px;
+    }
+    .call-back-container
+    {
+        margin-bottom: 10px;
+    }
+}
+@media screen and (max-width:400px) {
+    .h2-head{
+        font-size: 18px;
+    }
+    .p-second_section{
+        margin-bottom: 5px;
+        margin-left: 0;
+    }
+    
+}
+@media screen and (max-width:350px) {
+    .photostream{
+        grid-template-columns: repeat(3 , minmax(10px, 1fr));
+    }
+    
+}
