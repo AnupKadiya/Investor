@@ -910,6 +910,7 @@ display: flex;
 .last_line{
     display: flex;
     justify-content: space-between;
+    font-size: 13px;
 }
 .last_p
 {
@@ -953,6 +954,7 @@ display: flex;
     padding-left: 20px;
     padding-right: 20px;
     transition: background-color 1s;
+    font-size: 11px;
 
 }
 .tags:hover{
@@ -1001,7 +1003,7 @@ display: flex;
     color: white;
     margin: 0;
     text-transform: uppercase;
-    font-size: 14px;
+    font-size: 12px;
 }
 .footer_contact_us{
     background-color: white; color: black; margin-top: 0px;
