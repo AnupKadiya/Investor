@@ -1,5 +1,5 @@
 @font-face {
-    font-family: 'Montserrat';
+    font-family: 'Montserrat-Black';
     src: url('../fonts/Montserrat-Black.woff2') format('woff2'),
         url('../fonts/Montserrat-Black.woff') format('woff');
     font-weight: 900;
@@ -8,7 +8,7 @@
 }
 
 @font-face {
-    font-family: 'Montserrat';
+    font-family: 'Montserrat-BoldItalic';
     src: url('../fonts/Montserrat-BoldItalic.woff2') format('woff2'),
         url('../fonts/Montserrat-BoldItalic.woff') format('woff');
     font-weight: bold;
@@ -17,7 +17,7 @@
 }
 
 @font-face {
-    font-family: 'Montserrat';
+    font-family: 'Montserrat-ExtraBold';
     src: url('../fonts/Montserrat-ExtraBold.woff2') format('woff2'),
         url('../fonts/Montserrat-ExtraBold.woff') format('woff');
     font-weight: bold;
@@ -26,7 +26,7 @@
 }
 
 @font-face {
-    font-family: 'Montserrat';
+    font-family: 'Montserrat-BlackItalic';
     src: url('../fonts/Montserrat-BlackItalic.woff2') format('woff2'),
         url('../fonts/Montserrat-BlackItalic.woff') format('woff');
     font-weight: 900;
@@ -35,7 +35,7 @@
 }
 
 @font-face {
-    font-family: 'Montserrat';
+    font-family: 'Montserrat-BoldItalic';
     src: url('../fonts/Montserrat-BoldItalic.woff2') format('woff2'),
     url('../fonts/Montserrat-BoldItalic.woff') format('woff');
     font-weight: bold;
@@ -44,7 +44,7 @@
 }
 
 @font-face {
-    font-family: 'Montserrat';
+    font-family: 'Montserrat-Bold';
     src: url('../fonts/Montserrat-Bold.woff2') format('woff2'),
         url('../fonts/Montserrat-Bold.woff') format('woff');
     font-weight: bold;
@@ -53,7 +53,7 @@
 }
 
 @font-face {
-    font-family: 'Montserrat';
+    font-family: 'Montserrat-Italic';
     src: url('../fonts/Montserrat-Italic.woff2') format('woff2'),
         url('../fonts/Montserrat-Italic.woff') format('woff');
     font-weight: normal;
@@ -62,7 +62,7 @@
 }
 
 @font-face {
-    font-family: 'Montserrat';
+    font-family: 'Montserrat-ExtraLightItalic';
     src: url('../fonts/Montserrat-ExtraLightItalic.woff2') format('woff2'),
         url('../fonts/Montserrat-ExtraLightItalic.woff') format('woff');
     font-weight: 200;
@@ -80,7 +80,7 @@
 }
 
 @font-face {
-    font-family: 'Montserrat';
+    font-family: 'Montserrat-ExtraLight';
     src: url('../fonts/Montserrat-ExtraLight.woff2') format('woff2'),
         url('../fonts/Montserrat-ExtraLight.woff') format('woff');
     font-weight: 200;
@@ -89,7 +89,7 @@
 }
 
 @font-face {
-    font-family: 'Montserrat';
+    font-family: 'Montserrat-LightItalic';
     src: url('../fonts/Montserrat-LightItalic.woff2') format('woff2'),
         url('../fonts/Montserrat-LightItalic.woff') format('woff');
     font-weight: 300;
@@ -98,7 +98,7 @@
 }
 
 @font-face {
-    font-family: 'Montserrat';
+    font-family: 'Montserrat-ThinItalic';
     src: url('../fonts/Montserrat-ThinItalic.woff2') format('woff2'),
         url('../fonts/Montserrat-ThinItalic.woff') format('woff');
     font-weight: 100;
@@ -107,7 +107,7 @@
 }
 
 @font-face {
-    font-family: 'Montserrat';
+    font-family: 'Montserrat-SemiBoldItalic';
     src: url('../fonts/Montserrat-SemiBoldItalic.woff2') format('woff2'),
         url('../fonts/Montserrat-SemiBoldItalic.woff') format('woff');
     font-weight: 600;
@@ -116,7 +116,7 @@
 }
 
 @font-face {
-    font-family: 'Montserrat';
+    font-family: 'Montserrat-Thin';
     src: url('../fonts/Montserrat-Thin.woff2') format('woff2'),
         url('../fonts/Montserrat-Thin.woff') format('woff');
     font-weight: 100;
@@ -125,7 +125,7 @@
 }
 
 @font-face {
-    font-family: 'Montserrat';
+    font-family: 'Montserrat-Regular';
     src: url('../fonts/Montserrat-Regular.woff2') format('woff2'),
         url('../fonts/Montserrat-Regular.woff') format('woff');
     font-weight: normal;
@@ -134,7 +134,7 @@
 }
 
 @font-face {
-    font-family: 'Montserrat';
+    font-family: 'Montserrat-Medium';
     src: url('../fonts/Montserrat-Medium.woff2') format('woff2'),
     url('../fonts/Montserrat-Medium.woff') format('woff');
     font-weight: 500;
@@ -143,7 +143,7 @@
 }
 
 @font-face {
-    font-family: 'Montserrat';
+    font-family: 'Montserrat-SemiBold';
     src: url('../fonts/Montserrat-SemiBold.woff2') format('woff2'),
         url('../fonts/Montserrat-SemiBold.woff') format('woff');
     font-weight: 600;
@@ -152,7 +152,7 @@
 }
 
 @font-face {
-    font-family: 'Montserrat';
+    font-family: 'Montserrat-MediumItalic';
     src: url('../fonts/Montserrat-MediumItalic.woff2') format('woff2'),
         url('../fonts/Montserrat-MediumItalic.woff') format('woff');
     font-weight: 500;
@@ -161,7 +161,7 @@
 }
 
 @font-face {
-    font-family: 'Montserrat';
+    font-family: 'Montserrat-ThinItalic';
     src: url('../fonts/Montserrat-ThinItalic.woff2') format('woff2'),
         url('../fonts/Montserrat-ThinItalic.woff') format('woff');
     font-weight: 100;
@@ -170,7 +170,7 @@
 }
 
 @font-face {
-    font-family: 'Montserrat';
+    font-family: 'Montserrat-Thin';
     src: url('../fonts/Montserrat-Thin.woff2') format('woff2'),
         url('../fonts/Montserrat-Thin.woff') format('woff');
     font-weight: 100;
@@ -179,7 +179,7 @@
 }
 
 @font-face {
-    font-family: 'Lato';
+    font-family: 'Lato-Italic';
     src: url('../fonts/Lato-Italic.woff2') format('woff2'),
         url('../fonts/Lato-Italic.woff') format('woff');
     font-weight: normal;
@@ -188,7 +188,7 @@
 }
 
 @font-face {
-    font-family: 'Lato';
+    font-family: 'Lato-LightItalic';
     src: url('../fonts/Lato-LightItalic.woff2') format('woff2'),
         url('../fonts/Lato-LightItalic.woff') format('woff');
     font-weight: 300;
@@ -197,7 +197,7 @@
 }
 
 @font-face {
-    font-family: 'Lato';
+    font-family: 'Lato-Light';
     src: url('../fonts/Lato-Light.woff2') format('woff2'),
         url('../fonts/Lato-Light.woff') format('woff');
     font-weight: 300;
@@ -206,7 +206,7 @@
 }
 
 @font-face {
-    font-family: 'Lato';
+    font-family: 'Lato-BoldItalic';
     src: url('../fonts/Lato-BoldItalic.woff2') format('woff2'),
         url('../fonts/Lato-BoldItalic.woff') format('woff');
     font-weight: bold;
@@ -215,7 +215,7 @@
 }
 
 @font-face {
-    font-family: 'Lato';
+    font-family: 'Lato-Bold';
     src: url('../fonts/Lato-Bold.woff2') format('woff2'),
         url('../fonts/Lato-Bold.woff') format('woff');
     font-weight: bold;
@@ -224,7 +224,7 @@
 }
 
 @font-face {
-    font-family: 'Lato';
+    font-family: 'Lato-BoldItalic';
     src: url('../fonts/Lato-BoldItalic.woff2') format('woff2'),
         url('../fonts/Lato-BlackItalic.woff') format('woff');
     font-weight: 900;
@@ -233,7 +233,7 @@
 }
 
 @font-face {
-    font-family: 'Lato';
+    font-family: 'Lato-Black';
     src: url('../fonts/Lato-Black.woff2') format('woff2'),
         url('../fonts/Lato-Black.woff') format('woff');
     font-weight: 900;
@@ -251,7 +251,7 @@
 }
 
 @font-face {
-    font-family: 'Lato';
+    font-family: 'Lato-Regular';
     src: url('../fonts/Lato-Regular.woff2') format('woff2'),
         url('../fonts/Lato-Regular.woff') format('woff');
     font-weight: normal;
@@ -260,7 +260,7 @@
 }
 
 @font-face {
-    font-family: 'Lato Hairline';
+    font-family: 'Lato-Hairline';
     src: url('../fonts/Lato-HairlineItalic.woff2') format('woff2'),
         url('../fonts/Lato-HairlineItalic.woff') format('woff');
     font-weight: 300;
