@@ -297,7 +297,7 @@ img{
     flex-direction: row;
     background-color: rgba(36,43,51,255);
     color: white;
-   
+   font-family: 'Lato-Regular';
    justify-content: space-between;
 }
 .first_menu{
@@ -367,7 +367,7 @@ img{
     text-decoration: none;
     list-style: none;
     text-transform: uppercase;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat-Regular';
     color: rgba(36,43,51,255);
 }
 .anchor:hover{
@@ -409,7 +409,7 @@ img{
     column-gap: 10px;
     margin: 0;
     padding: 0;
-    font-family: 'Lato';
+    font-family: 'Lato-Regular';
 }
 .header_menu{
     top: 0;
@@ -449,7 +449,7 @@ img{
 }
 .h1-head{
     
-    /* font-family: 'Montserrat'; */
+    font-family: 'Montserrat-Bold';
     color: white;
     text-align: left;
     font-size: 45px;
@@ -460,7 +460,7 @@ img{
 .p-head{
     color: white;
     text-transform: capitalize;
-    font-family: 'Lato';
+    font-family: 'Lato-Regular';
     text-align: left;
     margin: 5px;
 }
@@ -484,7 +484,7 @@ img{
     display: flex;
     text-transform: uppercase;
     color: black;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat-SemiBold';
     align-items: center;
     justify-content: center;
     position: relative;
@@ -499,7 +499,7 @@ img{
     bottom: -10px;
 }
 .details_part_p{
-    font-family: 'Lato';
+    font-family: 'Lato-Regular';
     color: gray;
     line-height: 1.4;
 }
@@ -518,6 +518,8 @@ img{
     align-items: center;
     text-transform: uppercase;
     transition: background-color 2s;
+    font-family: 'Montserrat-Medium';
+    font-size: 13px;
 }
 
 .first_btn{
@@ -527,7 +529,7 @@ img{
 .p-second_section{
     margin-left: auto;
     margin-right: auto;
-    font-family: 'Lato';
+    font-family: 'Lato-Regular';
     font-size: 14px;
     max-width: fit-content;
     color: gray;
@@ -541,6 +543,11 @@ img{
 }
 .card_header{
     text-transform: uppercase;
+    font-family: 'Montserrat-SemiBold';
+}
+.card_pera{
+    color: gray;
+    font-family: 'Lato-Regular';
 }
 .first_card , .second_card , .third_card {
     width: 33.33%;
@@ -587,9 +594,12 @@ img{
     padding-bottom: 50px;
   
 }
+.h3-third_section{
+    font-family: 'Montserrat-SemiBold';
+}
 .p-third_section{
     max-width: 300px;
-    font-family: 'Lato';
+    font-family: 'Lato-Regular';    
     text-transform: capitalize;
 }
 .fourth_section_details{
@@ -603,9 +613,11 @@ img{
 .img_section{
     width: 50%;
 }
-
+.details h4{
+    font-family: 'Montserrat-Regular';
+}
 .section-4_details{
-    font-family: 'Lato';
+    font-family: 'Lato-Regular';
     color: gray;
     line-height: 1.4;
 }
@@ -628,11 +640,13 @@ img{
 }
 .h3-fifth_section{
     text-transform: uppercase;
+    font-family: 'Montserrat-SemiBold';
 }
 .h3-fourth_section{
     text-transform: uppercase;
     position: relative;
     line-height: 1.4;
+    font-family: 'Montserrat-SemiBold';
 }
 .h3-fourth_section::after{
     content: '';
@@ -650,6 +664,12 @@ img{
    align-items: center;
    justify-content: center;
 }
+.second_part h3, .third_part h3, .forth_part h3{
+    font-family: 'Montserrat-Regular';
+}
+.second_part p, .third_part p, .forth_part p{
+    font-family: 'Montserrat-Regular';
+}
 .details_fifth_head_section{
     margin-left: auto;
     margin-right: auto;
@@ -657,7 +677,7 @@ img{
     justify-content: center;
     text-transform: capitalize;
     color: gray;
-    font-family: 'Lato';
+    font-family: 'Lato-Regular';
     margin-top: 0;
     margin-bottom: 0;
     position: relative;
@@ -669,7 +689,7 @@ img{
     justify-content: center;
     text-transform: capitalize;
     color: gray;
-    font-family: 'Lato';
+    font-family: 'Lato-Regular';
     margin-top: 0;
     margin-bottom: 0;
     line-height: 1.4;
@@ -764,6 +784,7 @@ img{
     align-items: center;
     justify-content: center;
     position: relative;
+    font-family: 'Montserrat-SemiBold';
 }
 .h3-seven_section::after{
     content: '';
@@ -789,7 +810,7 @@ display: flex;
     text-transform: capitalize;
     color: gray;
     line-height: 0.5;
-    font-family: 'Lato';
+    font-family: 'Lato-Regular';
 }
 .seven_card
 {
@@ -827,6 +848,7 @@ display: flex;
 .card_details_head{
     text-transform: uppercase;
     font-weight: 500;
+    font-family: 'Montserrat-Regular';
 }
 .logo_slider_details{
     margin: 0px 50px;
@@ -871,6 +893,7 @@ display: flex;
 .footer_p{
     color: white;
     text-transform: uppercase;
+    font-family: 'Montserrat-Regular';
 }
 .line-2{
     background-color: rgba(36,43,51,255);
@@ -889,6 +912,8 @@ display: flex;
     text-transform: uppercase;
     font-weight: 900;
     color: white;
+    font-family: 'Montserrat-Regular';
+
 
 }
 .mail_line , .map_line , .phone_line{
@@ -911,19 +936,23 @@ display: flex;
     display: flex;
     justify-content: space-between;
     font-size: 13px;
+    font-family: 'Montserrat-Regular';
+
 }
 .last_p
 {
     color: gray;
     text-transform: uppercase;
-    font-family: 'Lato';
+    font-family: 'Montserrat-Regular';
+    
 }
 .last_ul{
     display: flex;
     column-gap: 15px;
     color: white;
     list-style: unset;
-    font-family: 'Lato';
+    font-family: 'Montserrat-Regular';
+
 }
 .last_li{
     list-style: none;
@@ -955,6 +984,8 @@ display: flex;
     padding-right: 20px;
     transition: background-color 1s;
     font-size: 11px;
+    font-family: 'Montserrat-Regular';
+
 
 }
 .tags:hover{
@@ -988,11 +1019,14 @@ display: flex;
     color: white;
     font-size: 12px;
     text-transform: uppercase;
+    font-family: 'Montserrat-Regular';
+    
 }
 .desc_p{
     color: gray;
     font-size: 12px;
     max-width: 300px;
+    font-family: 'Montserrat-Regular';
 }
 .heading_line{
     text-transform: uppercase;
@@ -1004,6 +1038,8 @@ display: flex;
     margin: 0;
     text-transform: uppercase;
     font-size: 12px;
+    font-family: 'Montserrat-Regular';
+
 }
 .footer_contact_us{
     background-color: white; color: black; margin-top: 0px;
@@ -1061,11 +1097,11 @@ display: flex;
 }
 .common-header{
     text-transform: uppercase;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat-SemiBold';
     margin: 0;
 }
 .common-content{
-    font-family: 'Lato';
+    font-family: 'Lato-Regular';
     margin: 0;
     font-size: small;
     letter-spacing: 0.5px;
@@ -1078,7 +1114,7 @@ display: flex;
 .cb-form form .flex-row input{
     border: none;
     text-transform: uppercase;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat-Regular';
     font-size: x-small;
     padding: 15px;
     width: 50%;
@@ -1087,21 +1123,21 @@ display: flex;
 .cb-form form input{
     border: none;
     text-transform: uppercase;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat-Regular';
     font-size: x-small;
     padding: 15px;
 }
 .cb-form form select{
     border: none;
     text-transform: uppercase;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat-Regular';
     font-size: x-small;
     padding: 15px;
 }
 .cb-form form textarea{
     border: none;
     text-transform: uppercase;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat-Regular';
     font-size: x-small;
     padding: 15px;
 }
@@ -1111,10 +1147,10 @@ display: flex;
 }
 .btn-aqua{
     background-color: rgb(0,171,205);
-    font-family: 'Montserrat';
+    font-family: 'Montserrat-Regular';
 }
 .cb-form form p{
-    font-family: 'Montserrat';
+    font-family: 'Montserrat-Regular';
     font-size: small;
     color: rgb(0, 0, 0)
 }
