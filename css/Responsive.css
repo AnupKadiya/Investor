@@ -253,6 +253,15 @@
     .third_section_details{
         flex-wrap: wrap;
         justify-content: space-evenly;
+        gap: 10px;
+        text-align: center;
+    }
+    .p-third_section{
+        margin: auto;
+        text-align: center;
+    }
+    .h3-third_section{
+        text-align: center;
     }
     .first_part , .second_part , .third_part , .forth_part {
         width: 50%;

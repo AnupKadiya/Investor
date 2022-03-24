@@ -369,6 +369,7 @@ img{
     text-transform: uppercase;
     font-family: 'Montserrat-Regular';
     color: rgba(36,43,51,255);
+    font-size: 13px;
 }
 .anchor:hover{
     color: rgba(0,171,201,255);
@@ -377,16 +378,14 @@ img{
     text-decoration: none;
     list-style: none;
     text-transform: uppercase;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat-SemiBold';
     font-size: 25px;
-    color: white;
+    color: black;
     font-weight: 900;
     letter-spacing: 1px;
-    transition: color 2s;
+
 }
-.anchor_text:hover{
-    color: rgba(36,43,51) ;
-}
+
 .anchor_logo{
     text-decoration: none;
     list-style: none;
@@ -409,6 +408,7 @@ img{
     column-gap: 10px;
     margin: 0;
     padding: 0;
+    font-size: 13px;
     font-family: 'Lato-Regular';
 }
 .header_menu{
@@ -488,6 +488,7 @@ img{
     align-items: center;
     justify-content: center;
     position: relative;
+    font-size: 28px;
 
 }
 .h2-head::after{
@@ -511,7 +512,7 @@ img{
     text-decoration: none;
     background: rgba(2,173,201,255);
     width: fit-content;
-    padding: 15px;
+    padding: 10px 20px;
     margin-top: 25px;
     color: white;
     display: flex;
@@ -596,6 +597,7 @@ img{
 }
 .h3-third_section{
     font-family: 'Montserrat-SemiBold';
+    font-size: 28px;
 }
 .p-third_section{
     max-width: 300px;
@@ -641,12 +643,14 @@ img{
 .h3-fifth_section{
     text-transform: uppercase;
     font-family: 'Montserrat-SemiBold';
+    font-size: 28px;
 }
 .h3-fourth_section{
     text-transform: uppercase;
     position: relative;
     line-height: 1.4;
     font-family: 'Montserrat-SemiBold';
+    font-size: 28px;
 }
 .h3-fourth_section::after{
     content: '';
@@ -666,6 +670,7 @@ img{
 }
 .second_part h3, .third_part h3, .forth_part h3{
     font-family: 'Montserrat-Regular';
+    font-size: 28px;
 }
 .second_part p, .third_part p, .forth_part p{
     font-family: 'Montserrat-Regular';
@@ -785,6 +790,7 @@ img{
     justify-content: center;
     position: relative;
     font-family: 'Montserrat-SemiBold';
+    font-size: 28px;
 }
 .h3-seven_section::after{
     content: '';
